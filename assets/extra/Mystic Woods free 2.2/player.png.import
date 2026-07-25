@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blhrkjnpny0xh"
-path="res://.godot/imported/TX Struct.png-828bf23115d2c582c5b5ba1c541dadd3.ctex"
+uid="uid://bmlrtkq5runc2"
+path="res://.godot/imported/player.png-4c1966102ada1f973225ac7c59dea8e9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/extra/escenario top dawn/TX Struct.png"
-dest_files=["res://.godot/imported/TX Struct.png-828bf23115d2c582c5b5ba1c541dadd3.ctex"]
+source_file="res://assets/extra/Mystic Woods free 2.2/player.png"
+dest_files=["res://.godot/imported/player.png-4c1966102ada1f973225ac7c59dea8e9.ctex"]
 
 [params]
 

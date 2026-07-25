@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ctu4oqk3kojnk"]
 
-[ext_resource type="Texture2D" uid="uid://bmlrtkq5runc2" path="res://assets/extra/player.png" id="1_1vpmt"]
+[ext_resource type="Texture2D" uid="uid://bmlrtkq5runc2" path="res://assets/extra/Mystic Woods free 2.2/player.png" id="1_1vpmt"]
 [ext_resource type="Script" uid="uid://cbje5lggl0kqi" path="res://scripts/base/base_character.gd" id="1_luuih"]
 [ext_resource type="Script" uid="uid://dknfjngh75xoh" path="res://addons/Maquina de estado/stateMachine.gd" id="3_oex5r"]
 [ext_resource type="Script" uid="uid://u7svly2hwqk4" path="res://scripts/base/state_idle.gd" id="4_hf6if"]
@@ -308,10 +308,6 @@ offset = Vector2(0, -8)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1009419533]
 position = Vector2(-1, 4)
 shape = SubResource("RectangleShape2D_g4v7s")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=2029480756]
-position_smoothing_enabled = true
-rotation_smoothing_enabled = true
 
 [node name="StateMachine" type="Node" parent="." unique_id=270659133 node_paths=PackedStringArray("default_state")]
 script = ExtResource("3_oex5r")

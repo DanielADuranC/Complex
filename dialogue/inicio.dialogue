@@ -1,0 +1,23 @@
+~ start
+Hector: Ey
+Hector: Eyyy
+Hector: Despierta!!
+Hector: No es hora de dormir, estamos en un campamento, ¡Hay que contar historias de terror!
+Sarah: ¿Qué? 
+Sarah: Ni siquiera me asustan las historias de terror, aparte ni eres buen narrador, me terminará dando sueño de nuevo
+Hector: No seas así, no será tan malo, además esta es buena, aunque bueno... realmente no lo se.
+Sarah: ¿Como que no lo sabes? ¿Acaso te la inventas a medida que la cuentas?
+Hector: No!... Bueno... Ya veremos, ¿sí? Déjamelo a mí.
+Sarah: Ya veo como es esto
+Hector: ...Bueno, esperaba que ambos pudieramos crear la historia, si te parece bien
+Sarah: ¿Me despertaste para que te ayudara a contar una historia? 
+Hector: Daleee, será divertido
+Sarah: Como quieras, pero si no hacemos algo bueno te juro que me duermo de nuevo
+Hector: Bien, entonces...
+Hector: Bien, érase una historia sobre un chico normal... con una vida normal... en un día normal... lo que no sabía era que los seres a su alrededor no eran normales...
+Sarah: Qué genérico...
+Hector: ¡Déjame contar la historia! Bueno... el chico estaba... ehhhh…
+- ¿Caminando por la calle?
+do Escenas.cambiar_escena("res://scenes/calle.tscn")
+- ¿Divagando en el bosque?
+=> END

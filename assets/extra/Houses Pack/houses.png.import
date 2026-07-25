@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dngtpyil5n1y2"
-path="res://.godot/imported/TX Plant.png-ba4434b0eb716c4beb36cde8f846be0b.ctex"
+uid="uid://ol7a5auprolx"
+path="res://.godot/imported/houses.png-6ab923002f867dba3c48c376f614d77a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/extra/escenario top dawn/TX Plant.png"
-dest_files=["res://.godot/imported/TX Plant.png-ba4434b0eb716c4beb36cde8f846be0b.ctex"]
+source_file="res://assets/extra/Houses Pack/houses.png"
+dest_files=["res://.godot/imported/houses.png-6ab923002f867dba3c48c376f614d77a.ctex"]
 
 [params]
 
