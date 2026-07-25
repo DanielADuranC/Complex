@@ -15,4 +15,4 @@ func _process(delta: float) -> void:
 		player.pause()
 		match actual_collider:
 			areaprueba:
-				DialogueManager.show_dialogue_balloon(PRUEBA, 'start')
+				Escenas.cambiar_escena("res://pruebas_2.tscn")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b848vsj3xfhu"
-path="res://.godot/imported/TX Props with Shadow.png-be2c67d125579877dcd9b1d061c83f5f.ctex"
+uid="uid://dpxge3hj6v3vu"
+path="res://.godot/imported/TX Tileset Wall.png-324b8c9a99d151873694335bb302b60d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/extra/escenario top dawn/Extra/TX Props with Shadow.png"
-dest_files=["res://.godot/imported/TX Props with Shadow.png-be2c67d125579877dcd9b1d061c83f5f.ctex"]
+source_file="res://assets/extra/Pixel Art Top Down - Basic v.1.2.3/Extra/TX Tileset Wall.png"
+dest_files=["res://.godot/imported/TX Tileset Wall.png-324b8c9a99d151873694335bb302b60d.ctex"]
 
 [params]
 

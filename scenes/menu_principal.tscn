@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://b07miuf008bjl"]
+
+[ext_resource type="Script" uid="uid://deh7b3khrow31" path="res://menu_principal.gd" id="1_i85hu"]
+
+[node name="menu_principal" type="Control" unique_id=496214221]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i85hu")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=599175261]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.007843138, 0.12941177, 0.105882354, 1)
+
+[node name="Titulo" type="Label" parent="." unique_id=1360764133]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -136.0
+offset_top = 48.0
+offset_right = 135.0
+offset_bottom = 136.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 64
+text = "Complex"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2043748548]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -168.0
+offset_top = -68.0
+offset_right = 166.0
+offset_bottom = 119.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 14
+
+[node name="Iniciar" type="Button" parent="VBoxContainer" unique_id=140738682]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Iniciar"
+
+[node name="Grafo" type="Button" parent="VBoxContainer" unique_id=236544186]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Visualizar Grafo Base"
+
+[node name="Salir" type="Button" parent="VBoxContainer" unique_id=1345701380]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Salir"
+
+[connection signal="pressed" from="VBoxContainer/Iniciar" to="." method="_on_iniciar_pressed"]
+[connection signal="pressed" from="VBoxContainer/Grafo" to="." method="_on_grafo_pressed"]
+[connection signal="pressed" from="VBoxContainer/Salir" to="." method="_on_salir_pressed"]

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byrkprvnjkuns"
-path="res://.godot/imported/TX Shadow Plant.png-853379903db15115595d7d5e54144e02.ctex"
+path="res://.godot/imported/TX Shadow Plant.png-90f11313cec2ba90363ef63345072078.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/extra/escenario top dawn/TX Shadow Plant.png"
-dest_files=["res://.godot/imported/TX Shadow Plant.png-853379903db15115595d7d5e54144e02.ctex"]
+source_file="res://assets/extra/Pixel Art Top Down - Basic v.1.2.3/Extra/TX Shadow Plant.png"
+dest_files=["res://.godot/imported/TX Shadow Plant.png-90f11313cec2ba90363ef63345072078.ctex"]
 
 [params]
 

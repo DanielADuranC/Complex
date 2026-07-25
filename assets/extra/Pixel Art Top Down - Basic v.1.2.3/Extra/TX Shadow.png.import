@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://45njrl1xmypd"
-path="res://.godot/imported/TX Shadow.png-8a908fe3240a25c17e3247672444abeb.ctex"
+path="res://.godot/imported/TX Shadow.png-912da48a32259957a6d630511c323110.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/extra/escenario top dawn/TX Shadow.png"
-dest_files=["res://.godot/imported/TX Shadow.png-8a908fe3240a25c17e3247672444abeb.ctex"]
+source_file="res://assets/extra/Pixel Art Top Down - Basic v.1.2.3/Extra/TX Shadow.png"
+dest_files=["res://.godot/imported/TX Shadow.png-912da48a32259957a6d630511c323110.ctex"]
 
 [params]
 
