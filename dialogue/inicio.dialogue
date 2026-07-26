@@ -18,6 +18,5 @@ Hector: Bien, érase una historia sobre un chico normal... con una vida normal..
 Sarah: Qué genérico...
 Hector: ¡Déjame contar la historia! Bueno... el chico estaba... ehhhh…
 - ¿Caminando por la calle?
-do Escenas.cambiar_escena("res://scenes/calle.tscn")
-- ¿Divagando en el bosque?
+	do Escenas.cambiar_escena("res://scenes/calle.tscn")
 => END
