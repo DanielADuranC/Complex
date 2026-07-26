@@ -1,6 +1,9 @@
 extends stateBase
 
+
+
 func _ready() -> void:
+	stateMachine = $".."
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 	
 func start():

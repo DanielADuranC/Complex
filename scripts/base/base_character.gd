@@ -15,10 +15,9 @@ func _physics_process(delta: float) -> void:
 		last_dir = input_dir.normalized()
 		
 	raycast.transform = raycast.transform.looking_at(last_dir)
-
 	
 	move_and_slide()
-
+	
 func pause():
 	stateMachine.change_state('statePause')
 	
