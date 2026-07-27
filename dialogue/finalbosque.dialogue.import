@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cmspp6vlkxkal"
+path="res://.godot/imported/finalbosque.dialogue-548eac1cb7cdff2f2dc5bd205ca1aba5.tres"
+
+[deps]
+
+source_file="res://dialogue/finalbosque.dialogue"
+dest_files=["res://.godot/imported/finalbosque.dialogue-548eac1cb7cdff2f2dc5bd205ca1aba5.tres"]
+
+[params]
+
+defaults=true

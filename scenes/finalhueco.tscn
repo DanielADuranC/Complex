@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://b2jyg0p2qlk5q"]
+
+[ext_resource type="Script" uid="uid://om7l5ssmotux" path="res://scripts/finalhueco.gd" id="1_efbkv"]
+[ext_resource type="Texture2D" uid="uid://hl1sqbtrbit" path="res://assets/Assets propios/hueco.png" id="2_iipn3"]
+
+[node name="finalhueco" type="Node2D" unique_id=1606316336]
+script = ExtResource("1_efbkv")
+
+[node name="Control" type="Control" parent="." unique_id=1770486673]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=658853912]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_iipn3")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1857679994]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)
