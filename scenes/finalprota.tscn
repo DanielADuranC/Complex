@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://ch5hvwss2ljwd"]
+
+[ext_resource type="Script" uid="uid://h5puxoq4c05d" path="res://scripts/finalprota.gd" id="1_2fgp2"]
+[ext_resource type="Texture2D" uid="uid://diuekxgjvfjw4" path="res://assets/Assets propios/puertarota.png" id="1_jnuqk"]
+[ext_resource type="Texture2D" uid="uid://it73gpcalqom" path="res://assets/Assets propios/foto.png" id="2_2fgp2"]
+
+[node name="Finalprota" type="Node2D" unique_id=1393132759]
+script = ExtResource("1_2fgp2")
+
+[node name="Control" type="Control" parent="." unique_id=300491502]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=1922332644]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_jnuqk")
+
+[node name="TextureRect2" type="TextureRect" parent="Control" unique_id=1510753886]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_2fgp2")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1613513477]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)

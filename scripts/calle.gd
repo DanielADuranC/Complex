@@ -30,4 +30,5 @@ func _on_area_2d2_body_entered(body: CharacterBody2D) -> void:
 func _on_area_2d3_body_entered(body: CharacterBody2D) -> void:
 	Character.pause()
 	DialogueManager.show_dialogue_balloon(CALLE_1, "start3")
+	area2d3.queue_free()
 	
