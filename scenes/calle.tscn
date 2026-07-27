@@ -4636,7 +4636,7 @@ tile_map_data = PackedByteArray("AAAAABEAAAAZAB8AAAAAABIAAAAZACAAAAAAABMAAAAZABY
 tile_set = SubResource("TileSet_g4v7s")
 
 [node name="playable_character" parent="." unique_id=464159540 instance=ExtResource("1_8jvpq")]
-position = Vector2(1301, 378)
+position = Vector2(2392, 362)
 
 [node name="Camera2D" type="Camera2D" parent="playable_character" unique_id=654549963]
 limit_left = 0

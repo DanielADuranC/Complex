@@ -1,7 +1,7 @@
 class_name character extends CharacterBody2D
 
 
-const speed:float = 200.0
+var speed:float = 200.0
 var input_dir:Vector2 = Vector2.ZERO
 var last_dir:Vector2 = Vector2.DOWN
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
