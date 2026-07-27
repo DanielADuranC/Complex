@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://br43snxyyn6m0"
+path="res://.godot/imported/finalasimismo.dialogue-b5d26e1b378ddd2810647ef4c3746f15.tres"
+
+[deps]
+
+source_file="res://dialogue/finalasimismo.dialogue"
+dest_files=["res://.godot/imported/finalasimismo.dialogue-b5d26e1b378ddd2810647ef4c3746f15.tres"]
+
+[params]
+
+defaults=true

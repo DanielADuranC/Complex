@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://do3cuct1y2wu4"]
+
+[ext_resource type="Script" uid="uid://d2wkbjvhkt7od" path="res://scripts/finalasumadre.gd" id="1_cxp3b"]
+[ext_resource type="Texture2D" uid="uid://xyppav0gh7mf" path="res://assets/Assets propios/mesa.png" id="2_ky4u4"]
+
+[node name="finalasumadre" type="Node2D" unique_id=780461140]
+script = ExtResource("1_cxp3b")
+
+[node name="Control" type="Control" parent="." unique_id=931066183]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=1043721031]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_ky4u4")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1289624454]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)
