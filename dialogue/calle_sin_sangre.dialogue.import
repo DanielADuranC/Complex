@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cc2kxwhif76se"
+path="res://.godot/imported/calle_sin_sangre.dialogue-9d9e5fd4012916f2da724077170ecf67.tres"
+
+[deps]
+
+source_file="res://dialogue/calle_sin_sangre.dialogue"
+dest_files=["res://.godot/imported/calle_sin_sangre.dialogue-9d9e5fd4012916f2da724077170ecf67.tres"]
+
+[params]
+
+defaults=true

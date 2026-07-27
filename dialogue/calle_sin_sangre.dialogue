@@ -1,0 +1,57 @@
+~ start
+Hector: El chico caminaba sin rumbo, pero tranquilo
+Hector: [speed=0.3]Y sin sangre en el suelo.
+=> END
+
+~ start2
+Hector: Se dio cuenta de la situación en la que estaba, se asustó mucho, pero mantuvo la calma para sacar su teléfono y llamar a su mamá...
+
+Chico: Mamá... ¿Dónde estás?
+Chico: ¿Mamá...?
+Teléfono: (Sonidos de interferencia)
+Mamá: No... vuelvas...
+Mamá: (Gruñido)
+
+Hector: El chico se quedó muy confundido, no entendía que pasaba, y hasta este momento notó que... no recordaba la cara de su madre
+
+Sarah: ¿Por qué tanto misterio? ¡Yo le pondría un poco más de acción!
+Hector: Es una forma interesante de contar una historia, ¿no te parece?
+Sarah: Lo que me interesa es algo que me aterre, no que me haga hacerme mil preguntas
+Hector: Entonces continúa tú, ¿cómo puedes solucionar esto?
+Sarah: Digamos que el chico decidió...
+
+- Inspeccionar las puertas
+	Sarah: Continuó por la calle, llendo algo más despacio, viendo cada casa, y esperando que algo cambiara a su alrededor
+	Sarah: Sentía una presencia aterradora mientras mas iba hacia el frente
+- Seguir la calle
+	Sarah: Continuó por la calle, llendo algo más despacio, viendo cada casa, y esperando que algo cambiara a su alrededor
+	Sarah: Sentía una presencia aterradora mientras mas iba hacia el frente
+- Quedarse quieto 
+	Sarah: Se sentó en el lugar donde estaba... 
+	Sarah: Se sentía muy cansado, demasiado cansado
+	Sarah: Cerró los ojos para no tener que pensar más, no quería ver las calles a su alrededor
+	Sarah: Se acurrucó en el suelo simplemente para pensar
+	Sarah: Realmente no sabía desde hace cuánto tiempo llevaba caminando, no sabía desde hace cuando tiempo llevaba intentando avanzar sin poder mirar hacia atrás
+	Sarah: Por su mente comenzaron a recorrer imágenes fugaces de su vida...
+=> END
+
+~ start3
+Sarah: Repentinamente su teléfono comenzó a sonar
+Sarah: No era su madre, su padre, era un número que no reconocía, pero era lo único que tenía
+
+Chico: ¿Hola?
+Voz: ¿Sabes que es lo más divertido de todo eso?
+Voz: Que realmente crees que puedes escapar...
+Voz: Tu madre ya me pertenece
+Voz: Y tu...
+Voz: Eres mi nuevo juguete
+Voz: Para siempre...
+
+Sarah: El niño soltó el teléfono
+Sarah: No lo quiso mirar ni un segundo
+Sarah: El niño se llenó de una ira descontrolada combinada con miedo
+Sarah: Un miedo que lo impulso a atacar el teléfono
+Sarah: Lo golpeo tanto que lo destrozó
+Sarah: No quería saber nada de esa voz...
+Sarah: No la reconocía, sentía que no debería estar ahí, no entendia lo que decía...
+Sarah: El niño trató de correr, pero no se podía mover
