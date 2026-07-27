@@ -1,0 +1,13 @@
+~ start
+Hector: En la cocina encontró únicamente un cuchillo... aunque este ya tenía sangre por toda su hoja
+Hector: Aún así, sentía la presencia del monstruo en la puerta y decidió llevárselo
+Hector: Mira, sangre, creo que es tu turno de seguir Sarah
+Sarah: Entonces... de repente el niño recordó algo, recordó apuñalar algo... pero no recuerda el qué... 
+Sarah: Se le hace difícil recordarlo por completo pero, creía que había apuñalado...
+- A si mismo
+	do Escenas.cambiar_escena("res://scenes/finalsimismo.tscn")
+- A su madre
+	do Escenas.cambiar_escena("res://scenes/finalasumadre.tscn")
+- Al monstruo
+	do Escenas.cambiar_escena("")
+=> END

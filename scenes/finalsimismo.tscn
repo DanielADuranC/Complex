@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dmrpbrw53rqgb"]
+
+[ext_resource type="Script" uid="uid://b624o25twr48o" path="res://scripts/finalsimismo.gd" id="1_a0wov"]
+[ext_resource type="Texture2D" uid="uid://yvpul570icsp" path="res://assets/Assets propios/cuchillo.png" id="2_3ihux"]
+
+[node name="finalsimismo" type="Node2D" unique_id=499663918]
+script = ExtResource("1_a0wov")
+
+[node name="Control" type="Control" parent="." unique_id=436010122]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=1450302983]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_3ihux")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=177829869]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)

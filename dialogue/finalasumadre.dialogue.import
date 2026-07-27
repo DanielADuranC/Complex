@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ccfd1ak35ucj"
+path="res://.godot/imported/finalasumadre.dialogue-77f0ea2e8ffb983e4384c188135d0b1f.tres"
+
+[deps]
+
+source_file="res://dialogue/finalasumadre.dialogue"
+dest_files=["res://.godot/imported/finalasumadre.dialogue-77f0ea2e8ffb983e4384c188135d0b1f.tres"]
+
+[params]
+
+defaults=true

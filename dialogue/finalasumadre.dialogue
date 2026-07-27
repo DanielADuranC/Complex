@@ -1,0 +1,29 @@
+~ start
+Sarah: A su madre...
+Hector: ¿A su madre?
+Hector: ¿No te parece que es un poco fuera de lugar?
+Sarah: ¿A qué te refieres?
+Hector: Déjame continuar la historia a mí, sé como arreglar eso...
+Hector: Una vez lo imaginó, se sintió de alguna manera atraído a alguna parte de la casa, comenzó a pensar que era mejor moverse, buscar ayuda de alguien... como su madre...
+Hector: El chico quiso salir de la cocina, encontró una casa mucho más ordenada, limpia, y llena de iluminación
+Hector: Afuera había dejado de llover, hasta parecía agradable
+Hector: Se dió cuenta de que el cuchillo ya no estaba en sus manos
+Hector: Escuchó la voz de su madre llamándolo al comedor
+Mamá: ¡Hijo! ¡Ven a comer, tu padre hizo la cena!
+Mamá: Tu padre se esforzó mucho, ¡ven!
+Mamá: ¡Rápido hijo!
+Hector: Al llegar al comedor, no se encontró con nadie, solo habían tres platos servidos perfectamente, y otro completamente vacío...
+Papá: Todo para ti hijo, especialmente para ti...
+Hector: El niño sentía que ese era el lugar en el que debía de estar toda su vida
+Hector: Hasta que de repente su plato se convirtió en un montón de hojas...
+Hector: Sus padres ya no estaban
+Hector: Solo se quedó una sombra parecida a la de su padre acompañándolo en la mesa
+Hector: Nunca se había sentido tan enojado...
+Hector: Y fin
+Sarah: Debiste de añadirle un poco más de sangre...
+Hector: Creo que eres muy fanática de la sangre. No es mi estilo realmente
+Sarah: De igual forma me gustó, creo que estaría bien volver a empezar, algo le falta a esta historia... Algo mas tétrico
+Hector: Intentémoslo de nuevo entonces, seguro que te gustará el siguiente final...
+Sarah: Yo haré que sea genial
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+=> END
