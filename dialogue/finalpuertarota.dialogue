@@ -1,0 +1,21 @@
+~ start
+Sarah: ¡Déjame la puerta rota a mí!
+Hector: Adelante
+Sarah: Cuando el chico entró a la puerta...
+Sarah: Se encontró al monstruo de afuera justo enfrente de él
+Sarah: Simplemente lo miraba, fijamente, con lo que parecían ser unos ojos saltones y desfigurados, negros, y profundamente consumidos por la maldad
+Sarah: El chico se quedo paralizado, sin armas, el monstruo parecía igual de paralizado.
+Sarah: Y en medio de esa tensión...
+Sarah: El monstruo simplemente desapareció lentamente, como si ya hubiera conseguido lo que quería.
+set ManejoDialogoEscena.mostrarfoto = true
+Sarah: Así que el chico simplemente caminó por la habitación
+Sarah: No encontró nada a excepción de una foto familiar, parecía una foto feliz, pero algo no cuadraba...
+Sarah: El padre... Tenía una cara algo turbia... Como si su mirada... Estuviera llena de un rojo vivo, y una sonrisa muy turbia...
+Hector: Tengo una pregunta
+Sarah: Que pregunta
+Hector: Si el monstruo estaba persiguiendo al chico... ¿Por que no trató de atacarlo esta vez?
+Sarah: Piensa que en realidad el monstruo nunca salió de la casa...
+Hector: Hmm, un poco confuso... pero me parece un buen final para la historia, ¿Que te parece?
+Sarah: Me parece que deberíamos empezar de nuevo, ¡Me encantan estas historias!
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+=> END

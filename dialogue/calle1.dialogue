@@ -30,5 +30,12 @@ Sarah: Huyó tan rápido y con tanto pánico, que en el camino perdió su teléf
 Hector: Qué te parece...
 Hector: El chico corrió con todas sus fuerzas pero la criatura seguía detras de él como si nunca se alejara lo suficiente
 Hector: Fue entonces cuando vio una puerta de una casa abierta... El chico sentía que la había visto antes, pero no se lo pensó más y entró sin dudarlo.
-do Escenas.cambiar_escena("")
+set Escenas.pantallanegra.color = Color(0, 0, 0, 1)
+Hector: Cerró la puerta con seguro y vio a su alrededor por un instante...
+Hector: La casa le parecía conocida, todo era extrañamente familiar... Sin embargo tenía que actuar rápido
+Hector: Lo primero que hizo el chico en esa casa fue...
+- Inspeccionar la cocina
+	do Escenas.cambiar_escena("res://scenes/segundo_piso.tscn")
+- Subir al segundo piso
+	do Escenas.cambiar_escena("res://scenes/segundo_piso.tscn")
 => END

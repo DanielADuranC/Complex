@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://jyp7j11r8rbr"
+path="res://.godot/imported/segundopiso.dialogue-e9a2dcacb7554309b4d1247cc12788f2.tres"
+
+[deps]
+
+source_file="res://dialogue/segundopiso.dialogue"
+dest_files=["res://.godot/imported/segundopiso.dialogue-e9a2dcacb7554309b4d1247cc12788f2.tres"]
+
+[params]
+
+defaults=true
