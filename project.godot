@@ -20,6 +20,7 @@ config/icon="res://icon.svg"
 DialogueManager="*uid://c3rodes2l3gxb"
 Escenas="*uid://cp1esu7d1p674"
 ManejoDialogoEscena="*uid://c8yrt4m6mlypi"
+Dfs="*uid://bnoxrp43o5o4j"
 
 [editor_plugins]
 
@@ -55,7 +56,7 @@ interact={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogue/inicio.dialogue", "res://dialogue/prueba.dialogue", "res://dialogue/untitled.dialogue", "res://dialogue/calle1.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogue/inicio.dialogue", "res://dialogue/calle1.dialogue", "res://dialogue/segundopiso.dialogue", "res://dialogue/finalpuertarota.dialogue")
 
 [physics]
 
