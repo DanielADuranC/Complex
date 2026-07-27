@@ -1711,7 +1711,7 @@ size = Vector2(26, 521)
 size = Vector2(776, 20)
 
 [node name="segundo_piso" type="Node2D" unique_id=83423500]
-modulate = Color(0.41368303, 0.4136831, 0.41368303, 1)
+modulate = Color(0.32380766, 0.3321526, 0.5759564, 1)
 script = ExtResource("1_c32ej")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1678127102]
