@@ -8,7 +8,7 @@ var last_dir:Vector2 = Vector2.DOWN
 @onready var raycast: RayCast2D = $RayCast2D
 @onready var stateMachine: StateMachine = $StateMachine
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	input_dir= Input.get_vector('LEFT', "RIGHT", "UP", "DOWN")
 	input_dir = input_dir.normalized()
 	if input_dir != Vector2.ZERO:

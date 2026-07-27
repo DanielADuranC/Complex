@@ -1,7 +1,7 @@
 extends stateBase
 
 
-func  on_physics_process(delta:float) -> void:
+func  on_physics_process(_delta:float) -> void:
 	controlled_node.velocity = controlled_node.input_dir * controlled_node.speed
 	if controlled_node.input_dir == Vector2.ZERO:
 		stateMachine.change_state('stateIdle')

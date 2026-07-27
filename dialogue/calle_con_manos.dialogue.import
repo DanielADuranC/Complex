@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c6ojpvtkdj2uw"
+path="res://.godot/imported/calle_con_manos.dialogue-cebe6696ac910ce6d695aa83ca845c1f.tres"
+
+[deps]
+
+source_file="res://dialogue/calle_con_manos.dialogue"
+dest_files=["res://.godot/imported/calle_con_manos.dialogue-cebe6696ac910ce6d695aa83ca845c1f.tres"]
+
+[params]
+
+defaults=true
