@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cytv0df6bs4u0"
+path="res://.godot/imported/calle1.dialogue-4ec6065dc47f971ca5e69856de2047e6.tres"
+
+[deps]
+
+source_file="res://dialogue/calle1.dialogue"
+dest_files=["res://.godot/imported/calle1.dialogue-4ec6065dc47f971ca5e69856de2047e6.tres"]
+
+[params]
+
+defaults=true
