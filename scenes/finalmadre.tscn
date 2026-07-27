@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bora7fjdrp35d"]
+
+[ext_resource type="Script" uid="uid://dnfl3dm07cwam" path="res://finalmadre.gd" id="1_p48un"]
+[ext_resource type="Texture2D" uid="uid://bgx2ka7v8jw7q" path="res://assets/Assets propios/mujer.png" id="2_ryhql"]
+
+[node name="finalmadre" type="Node2D" unique_id=1271345811]
+script = ExtResource("1_p48un")
+
+[node name="Control" type="Control" parent="." unique_id=1438172316]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=1689118219]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_ryhql")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=830308650]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)
