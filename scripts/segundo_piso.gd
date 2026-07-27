@@ -6,8 +6,8 @@ const SEGUNDOPISO = preload("uid://jyp7j11r8rbr")
 @onready var puertarota: Area2D = $Puertarota
 
 func _ready() -> void:
-	await get_tree().create_timer(2).timeout
 	Character.pause()
+	await get_tree().create_timer(2).timeout
 	DialogueManager.show_dialogue_balloon(SEGUNDOPISO, "start")
 
 func _process(delta: float) -> void:

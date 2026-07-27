@@ -1,0 +1,41 @@
+~ start
+Hector: Cuando entró a  esta habitación sintió una presencia horripilante en su cuerpo...
+Hector: Cerró la puerta detrás de él para que el monstruo no lo atacara... Pero no sabía que el cuarto era aún peor opción.
+Hector: Cuando cerró la puerta encontró que dentro de la habitación había una mujer sentada en medio, en una silla, al parecer llorando...
+Hector: El chico notó que había una ventana detrás de ella, pero tendría que rodearla
+Hector: El chico estaba muy asustado, pero no podía dejar a la mujer ahí sabiendo que había un monstruo golpeando la puerta de su casa.
+=> END
+
+~ start2
+Hector: Trató de pasar por el lado sin mirarla directamente
+Hector: En realidad quería salvarse del monstruo, y la mujer parecía que no lo ayudaría
+Hector: Aunque le doliera debía seguir...
+Sarah: Creo que es más interesante que hable con ella, ¿no?
+Hector: Estaba pensando en algo para la ventana... pero tienes razón, ¿Como podría dejarlo pasar?
+Sarah: Exacto, vamos, entonces
+Sarah: El chico intentó esquivarla
+Sarah: Pero su corazón se lo impidió... Algo lo atraía hacia ella, necesitaba ayudarla
+do Escenas.cambiar_escena("res://scenes/finalmadre.tscn")
+
+~ start3
+Hector: Al acercarse a la mujer, el chico sintió un escalofrio, y al mismo tiempo un alivio
+Hector: Cuando logró acercarse lo suficiente escuchó que la mujer estaba diciendo algo...
+Hector: Hablaba con voz baja como su susurrara entre sus sollozos algo importante
+Hector: Decía...
+Mamá: ¿Por que lo hice...? ¿Por que lo hice...? ¿Por que lo hice...? ¿Por que lo hice...?
+Mamá: ...
+Mamá: ...
+Hector: En medio del silencio la mujer mira a los ojos al chico
+Hector: De sus ojos comenzaron a brotar lagrimas, pero también una ronsira aterradora
+Hector: Sus ojos extremadamente abiertos pero llenos de lágrimas no daban paso a saber qué es lo que estaba sinitiendo...
+Hector: Con sus propias manos se abalanzó hacia el niño
+Hector: Lo sujetó del cuello mientras sonreía sin decir nada
+Hector: Cuando el silencio llenó la habitación solo dijo en voz baja
+Mamá: ¿Esto es lo que querias, no?
+Hector: El niño desapareció ante sus ojos, y ella misma se desmayó...
+Hector: Y fin
+Sarah: Me sorprende que le hayas dado ese final sin sangre de por medio, pero eso te resta puntos
+Hector: A veces no te entiendo Sarah
+Hector: Que te parece si empezamos de nuevo, a ver si esta vez te complace
+Sarah: ¡Me parece una excelente idea!
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
