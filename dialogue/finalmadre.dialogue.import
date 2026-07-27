@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://d2lis07spj6fk"
+path="res://.godot/imported/finalmadre.dialogue-b2bd60d1ada487a2658af0a5ba6d94a4.tres"
+
+[deps]
+
+source_file="res://dialogue/finalmadre.dialogue"
+dest_files=["res://.godot/imported/finalmadre.dialogue-b2bd60d1ada487a2658af0a5ba6d94a4.tres"]
+
+[params]
+
+defaults=true

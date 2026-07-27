@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://nu35yoy6pgkg"
+path="res://.godot/imported/cuchillo.dialogue-7c4bc02aa9eadec60b17950a7a5bedf7.tres"
+
+[deps]
+
+source_file="res://dialogue/cuchillo.dialogue"
+dest_files=["res://.godot/imported/cuchillo.dialogue-7c4bc02aa9eadec60b17950a7a5bedf7.tres"]
+
+[params]
+
+defaults=true

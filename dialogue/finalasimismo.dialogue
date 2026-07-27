@@ -1,0 +1,23 @@
+~ start
+Sarah: El chico no sabe lo que hace, cree que es un recuerdo, o una.. ¿premonición?
+Sarah: De repente el chico ve el cuchillo, ya no tiene sangre, cree que es su destino...
+Sarah: De repente el niño despierta, asustado, en una cama, al parecer rodeado de oscuridad...
+Sarah: Suena un teléfono, el chico piensa que es el suyo y lo levanta, pero es el de otro lugar, Camina por un pasillo hasta un teléfono y lo agarra
+Chico: ¿Hola?
+Mamá: ¿¡POR QUÉ NO ME CONTESTABAS!?
+Mamá: ¿¡A DÓNDE FUISTE!?
+Mamá: ¿¡QUÉ TE HIZO TU PADRE...!?
+Hector: ¿Su padre?
+Sarah: Jejeje, es entonces, que el chico se da vuelta, y ve a su padre, tirado en el suelo, rodeado de sangre, con un cuchillo en sus manos
+Sarah: El chico no puede hablar
+Sarah: El chico no puede volver
+Sarah: El chico ya no tiene a dónde ir
+Sarah: El chico...
+Sarah: Murió
+Hector: ¿Y eso qué quiere decir?
+Sarah: Piénsalo, luego lo entenderás
+Sarah: O quizá no eres lo suficientemente inteligente, ¡Pero mi historia estuvo genial!
+Hector: No sé si lo llegue a entender, pero es cierto que me dio escalofríos, sólo un poco. ¿Otra historia?
+Sarah: ¡Seguro! Valió la pena que me despertaras. Seguro que entenderás mejor todo si empezamos de nuevo.
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+=> END

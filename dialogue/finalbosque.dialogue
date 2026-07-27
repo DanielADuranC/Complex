@@ -1,0 +1,64 @@
+~ start
+Hector: El chico se sintió acorralado, como si su mente ya no fuera la de él mismo... Sentía que estaba en el cuerpo equivocado... Cerró los ojos muy fuertemente... 
+Hector: Cuando abrió los ojos, encontró que ya no era el mismo, era... Un adulto
+Hector: Estaba en un bosque, lleno de hojas, de noche y con mucho frío, no sabía a dónde ir, ni qué hacía ahí
+Hector: Caminó un buen rato, el hombre no entendía nada, ni siquiera sabía cuál era el camino de regreso a casa
+Hector: De repente se le ocurrió revisar su chaqueta, encontró una foto, unos cigarros, y lo más importante, un teléfono.
+Hector: No sabía su sontraseña, pero tenía un montón de llamadas perdidas de una señora llamada... Tenia
+Sarah: ¿Qué clase de persona se llama Tenia? No encaja con la historia, ¡Llámala de otra forma!
+Hector: ...
+Hector: Está bien, se llamará Eugenia, ¿Te gusta?
+Sarah: ¡Aún peor!
+Hector: Entonces se llamará Tenia, ahora...
+Sarah: Bien, llámala Tenia, ¡Pero entonces yo seguiré la historia!
+Hector: ... Adelante, a ver cómo te las ingenias
+Sarah: Cuando levantó la vista del teléfono, se encontró con una luz proveniente del fondo del bosque... El hombre decidió...
+- Seguir la luz
+	do Escenas.cambiar_escena("res://scenes/finalluz.tscn")
+- Ir en dirección contraria
+	do Escenas.cambiar_escena("res://scenes/finalhueco.tscn")
+=> END
+
+~ start2
+Sarah: Se alejó lo más rápido posible, no quería ver a nadie, no quería que nadie lo viera, aunque no sabía por qué
+Sarah: Corrió tanto que cayó a un agujero en medio de un montón de hojas, no veía nada, estaba oscuro, pero sentía algo duro...
+Sarah: El cuerpo de un niño, aún caliente...
+Sarah: El hombre no reconocía el cuerpo, no sabía qué estaba pasando...
+Sarah: Hasta que una voz le dijo al oído...
+Sarah: "Te amo papá"
+Sarah: Fin
+Hector: Hmm... De hecho me gustó, aunque la verdad creo que no entiendo, ¿Él era el padre del niño?
+Sarah: Creo que lo entenderás luego, quizá si lo intentamos de nuevo completemos aún más la historia
+Hector: Me gusta esa idea, ¡Empecemos de nuevo!
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+=> END
+
+~ start3
+Sarah: Decidió seguirla para saber qué estaba pasando
+Sarah: En el fondo del camino se encontró con un sonido familiar
+Sarah: Sonidos de sirenas comenzaron a incrementarse, de voces de hombres apurados con sus perros, pero eso no era lo que más lo asustaba
+Sarah: Entre la multitud de personas vió a una mujer, vestida de forma casual, parecía ser alguien conocida... Pero no pudo verle la cara.
+Sarah: El hombre sintió una especie de alivio, de seguridad frente a la mujer... Como si verla fuera lo mejor que le hubiera pasado...
+Hector: Me recuerda a algún tipo de historia de romance
+Sarah: Te aseguro que no es nada romántico
+Hector: A ver, termina la historia...
+Sarah: Bien...
+Sarah: Hasta este momento el hombre pensó que su corazón había dejado de latir por la emoción
+Sarah: Que su respiración se agitó por la impresión
+Sarah: Que la noche era demasiado fría...
+Sarah: Hasta que se dió cuenta de que
+Sarah: Literalmente
+Sarah: No tenía corazón
+Sarah: Nunca pensó que esa bella y misteriosa mujer hiciera desaparecer a las demás personas a su alrededor
+Sarah: Solo para dispararle en el corazón
+Hector: ¿Y qué pasó después?
+Sarah: Se murió
+Hector: A...
+Hector: Me refería... pensé que iba a durar más.
+Sarah: Este me parece un buen final, es como... misterioso pero también lleno de SANGRE MUAJAJA
+Hector: ... Sí, supongo que está bien
+Sarah: ¿Lo intentamos de nuevo? A ver que más espera esta historia
+Hector: Dale, me encanta verte tan emocionada por mi idea de contar historias de terror... Aún después de haberte despertado
+Sarah: De eso hablaremos más tarde...
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+=> END
