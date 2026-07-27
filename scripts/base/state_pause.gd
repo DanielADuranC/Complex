@@ -12,7 +12,7 @@ func start():
 	
 	
 	
-func on_physics_process(delta:float):
+func on_physics_process(_delta:float):
 	if controlled_node.last_dir == Vector2.DOWN: controlled_node.sprite.play('idle')
 	elif controlled_node.last_dir == Vector2.UP: controlled_node.sprite.play('b_idle')
 	
@@ -30,5 +30,5 @@ func end():
 	controlled_node.set_physics_process(true)
 	controlled_node.raycast.set_collision_mask(1)
 	
-func _on_dialogue_ended(resource):
+func _on_dialogue_ended(_resource):
 	stateMachine.change_state('stateIdle')

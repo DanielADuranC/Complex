@@ -1,13 +1,13 @@
 [gd_scene format=4 uid="uid://dpc88oha44qdq"]
 
-[ext_resource type="Script" uid="uid://bjicqk1bacf4c" path="res://scenes/calle_no_sangre.gd" id="1_mjlsj"]
+[ext_resource type="Script" uid="uid://bjicqk1bacf4c" path="res://scripts/calle_no_sangre.gd" id="1_mjlsj"]
 [ext_resource type="Texture2D" uid="uid://ci0770g0pyira" path="res://assets/extra/Pixel Art Top Down - Basic v.1.2.3/Extra/TX Tileset Stone Ground.png" id="1_y6wux"]
 [ext_resource type="Texture2D" uid="uid://bln4alcanrqq3" path="res://assets/extra/Pixel Art Top Down - Basic v.1.2.3/Extra/TX Tileset Grass.png" id="2_mjlsj"]
 [ext_resource type="Texture2D" uid="uid://ol7a5auprolx" path="res://assets/extra/Houses Pack/houses.png" id="3_wafnr"]
 [ext_resource type="Texture2D" uid="uid://d31difr35a4o5" path="res://assets/extra/bloodfx001_nyknck/bloodfx001_05.png" id="4_hpprq"]
 [ext_resource type="PackedScene" uid="uid://ctu4oqk3kojnk" path="res://scenes/playable_character.tscn" id="5_wnv05"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nwrj1"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mjlsj"]
 texture = ExtResource("1_y6wux")
 0:0/0 = 0
 1:0/0 = 0
@@ -210,7 +210,7 @@ texture = ExtResource("1_y6wux")
 14:15/0 = 0
 15:15/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ljh8b"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wafnr"]
 texture = ExtResource("2_mjlsj")
 0:0/0 = 0
 1:0/0 = 0
@@ -470,10 +470,10 @@ texture = ExtResource("2_mjlsj")
 15:15/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_3juy2"]
-sources/0 = SubResource("TileSetAtlasSource_nwrj1")
-sources/1 = SubResource("TileSetAtlasSource_ljh8b")
+sources/0 = SubResource("TileSetAtlasSource_mjlsj")
+sources/1 = SubResource("TileSetAtlasSource_wafnr")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2t73a"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hpprq"]
 texture = ExtResource("3_wafnr")
 18:0/0 = 0
 19:0/0 = 0
@@ -2531,7 +2531,7 @@ texture = ExtResource("3_wafnr")
 45:62/0 = 0
 46:62/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ftckj"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wnv05"]
 texture = ExtResource("4_hpprq")
 0:0/0 = 0
 1:0/0 = 0
@@ -2539,10 +2539,10 @@ texture = ExtResource("4_hpprq")
 1:1/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_mggaj"]
-sources/0 = SubResource("TileSetAtlasSource_2t73a")
-sources/1 = SubResource("TileSetAtlasSource_ftckj")
+sources/0 = SubResource("TileSetAtlasSource_hpprq")
+sources/1 = SubResource("TileSetAtlasSource_wnv05")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g2ase"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nwrj1"]
 texture = ExtResource("3_wafnr")
 18:0/0 = 0
 19:0/0 = 0
@@ -4601,17 +4601,26 @@ texture = ExtResource("3_wafnr")
 46:62/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_uxo6y"]
-sources/0 = SubResource("TileSetAtlasSource_g2ase")
+sources/0 = SubResource("TileSetAtlasSource_nwrj1")
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_y6wux"]
 a = Vector2(3229, 225)
-b = Vector2(1, 205)
+b = Vector2(-1612, 245)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mjlsj"]
 size = Vector2(27, 935)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wafnr"]
+size = Vector2(20, 646)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lr07i"]
+size = Vector2(20, 646)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_crwbv"]
 size = Vector2(27, 644)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uxv61"]
+size = Vector2(74, 38)
 
 [node name="calle_no_sangre" type="Node2D" unique_id=2008413243]
 modulate = Color(0.47843137, 0.4509804, 1, 1)
@@ -4634,10 +4643,10 @@ tile_map_data = PackedByteArray("AAAAABEAAAAZAB8AAAAAABIAAAAZACAAAAAAABMAAAAZABY
 tile_set = SubResource("TileSet_uxo6y")
 
 [node name="playable_character" parent="." unique_id=464159540 instance=ExtResource("5_wnv05")]
-position = Vector2(2859, 362)
+position = Vector2(2597, 361)
 
 [node name="Camera2D" type="Camera2D" parent="playable_character" unique_id=443044783]
-limit_left = 0
+limit_left = -637
 limit_top = 0
 limit_right = 3200
 limit_bottom = 900
@@ -4657,6 +4666,15 @@ shape = SubResource("SegmentShape2D_y6wux")
 position = Vector2(3200, 467)
 shape = SubResource("RectangleShape2D_mjlsj")
 
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D" unique_id=1083939922]
+position = Vector2(1718, 374)
+shape = SubResource("RectangleShape2D_wafnr")
+disabled = true
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D" unique_id=1407596598]
+position = Vector2(-627, 382)
+shape = SubResource("RectangleShape2D_lr07i")
+
 [node name="Area2D" type="Area2D" parent="." unique_id=1393055467]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=446155538]
@@ -4669,9 +4687,56 @@ shape = SubResource("RectangleShape2D_crwbv")
 position = Vector2(635, 388)
 shape = SubResource("RectangleShape2D_crwbv")
 
-[node name="Timer" type="Timer" parent="." unique_id=2114083782]
-wait_time = 4.0
+[node name="Puertas" type="Node2D" parent="." unique_id=1213539678]
+
+[node name="Puerta1" type="Area2D" parent="Puertas" unique_id=1024544089]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Puertas/Puerta1" unique_id=246963063]
+position = Vector2(1535, 259)
+shape = SubResource("RectangleShape2D_uxv61")
+
+[node name="Puerta2" type="Area2D" parent="Puertas" unique_id=1188373763]
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Puertas/Puerta2" unique_id=1162488541]
+position = Vector2(894, 259)
+shape = SubResource("RectangleShape2D_uxv61")
+
+[node name="Puerta3" type="Area2D" parent="Puertas" unique_id=1512472288]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Puertas/Puerta3" unique_id=1478251183]
+position = Vector2(1216, 258)
+shape = SubResource("RectangleShape2D_uxv61")
+
+[node name="Puerta4" type="Area2D" parent="Puertas" unique_id=939403202]
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Puertas/Puerta4" unique_id=1332115815]
+position = Vector2(575, 255)
+shape = SubResource("RectangleShape2D_uxv61")
+
+[node name="Puerta5" type="Area2D" parent="Puertas" unique_id=725542801]
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Puertas/Puerta5" unique_id=602349847]
+position = Vector2(251, 257)
+shape = SubResource("RectangleShape2D_uxv61")
+
+[node name="Puerta6" type="Area2D" parent="Puertas" unique_id=400803670]
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Puertas/Puerta6" unique_id=1150908583]
+position = Vector2(-63, 259)
+shape = SubResource("RectangleShape2D_uxv61")
+
+[node name="Puerta7" type="Area2D" parent="Puertas" unique_id=517353616]
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Puertas/Puerta7" unique_id=1801773807]
+position = Vector2(-389, 255)
+shape = SubResource("RectangleShape2D_uxv61")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="body_entered" from="Puertas/Puerta1" to="." method="_on_puerta_1_body_entered"]
+[connection signal="body_entered" from="Puertas/Puerta2" to="." method="_on_puerta_2_body_entered"]
+[connection signal="body_entered" from="Puertas/Puerta3" to="." method="_on_puerta_3_body_entered"]
+[connection signal="body_entered" from="Puertas/Puerta4" to="." method="_on_puerta_4_body_entered"]
+[connection signal="body_entered" from="Puertas/Puerta5" to="." method="_on_puerta_5_body_entered"]
+[connection signal="body_entered" from="Puertas/Puerta6" to="." method="_on_puerta_6_body_entered"]
+[connection signal="body_entered" from="Puertas/Puerta7" to="." method="_on_puerta_7_body_entered"]

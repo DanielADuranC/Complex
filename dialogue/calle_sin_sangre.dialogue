@@ -21,8 +21,8 @@ Hector: Entonces continúa tú, ¿cómo puedes solucionar esto?
 Sarah: Digamos que el chico decidió...
 
 - Inspeccionar las puertas
-	Sarah: Continuó por la calle, llendo algo más despacio, viendo cada casa, y esperando que algo cambiara a su alrededor
-	Sarah: Sentía una presencia aterradora mientras mas iba hacia el frente
+	set ManejoDialogoEscena.deshabilitar_colision_calle = true
+	Sarah: El chico comenzó a forcejear cada puerta de cada casa que encontraba
 - Seguir la calle
 	Sarah: Continuó por la calle, llendo algo más despacio, viendo cada casa, y esperando que algo cambiara a su alrededor
 	Sarah: Sentía una presencia aterradora mientras mas iba hacia el frente
@@ -55,3 +55,27 @@ Sarah: Lo golpeo tanto que lo destrozó
 Sarah: No quería saber nada de esa voz...
 Sarah: No la reconocía, sentía que no debería estar ahí, no entendia lo que decía...
 Sarah: El niño trató de correr, pero no se podía mover
+Sarah: ...
+do Escenas.cambiar_escena("res://scenes/calle_con_manos.tscn")
+
+~ puerta1
+Sarah: Parecía que ninguna abría
+=> END
+~ puerta2
+Sarah: Pero lo que más confundía al chico era lo que veía reflejado en las ventanas
+=> END
+~ puerta3
+Sarah: Cada casa era igual, con las mismas cortinas, y formas similares
+=> END
+~ puerta4
+Sarah: Lo único que podía ver en esas ventanas era la sombre de lo que parecían ser familias felices
+=> END
+~ puerta5
+Sarah: Escuchaba como las personas de adentro reían
+=> END
+~ puerta6
+Sarah: Escuchaba el sonido de los platos sirviendose en una mesa
+=> END
+~ puerta7
+Sarah: Escuchaba niños que eran felices con sus padres
+=> END

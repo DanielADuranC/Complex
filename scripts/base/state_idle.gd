@@ -2,7 +2,7 @@ extends stateBase
 
 
 
-func on_physics_process(delta:float) -> void:
+func on_physics_process(_delta:float) -> void:
 	if controlled_node.last_dir == Vector2.DOWN: controlled_node.sprite.play('idle')
 	elif controlled_node.last_dir == Vector2.UP: controlled_node.sprite.play('b_idle')
 	
