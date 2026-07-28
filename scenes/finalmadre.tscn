@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bora7fjdrp35d"]
 
-[ext_resource type="Script" uid="uid://dnfl3dm07cwam" path="res://finalmadre.gd" id="1_p48un"]
+[ext_resource type="Script" uid="uid://dnfl3dm07cwam" path="res://scripts/finalmadre.gd" id="1_p48un"]
 [ext_resource type="Texture2D" uid="uid://bgx2ka7v8jw7q" path="res://assets/Assets propios/mujer.png" id="2_ryhql"]
 
 [node name="finalmadre" type="Node2D" unique_id=1271345811]

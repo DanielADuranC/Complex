@@ -26,7 +26,7 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	desactivar_colision = ManejoDialogoEscena.deshabilitar_colision_calle
 	if numero_puerta == "puerta8":
-		pass
+		Escenas.cambiar_escena("res://scenes/casa.tscn")
 	if desactivar_colision == true:
 		area_2d_2.queue_free()
 		ManejoDialogoEscena.deshabilitar_colision_calle = false
