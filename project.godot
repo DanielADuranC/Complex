@@ -22,6 +22,11 @@ Escenas="*uid://cp1esu7d1p674"
 ManejoDialogoEscena="*uid://c8yrt4m6mlypi"
 Dfs="*uid://bnoxrp43o5o4j"
 
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_width"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")

@@ -35,7 +35,7 @@ Hector: Cerró la puerta con seguro y vio a su alrededor por un instante...
 Hector: La casa le parecía conocida, todo era extrañamente familiar... Sin embargo tenía que actuar rápido
 Hector: Lo primero que hizo el chico en esa casa fue...
 - Inspeccionar la cocina
-	do Escenas.cambiar_escena("res://scenes/segundo_piso.tscn")
+	do Escenas.cambiar_escena("res://scripts/cocina.gd")
 - Subir al segundo piso
 	do Escenas.cambiar_escena("res://scenes/segundo_piso.tscn")
 => END
