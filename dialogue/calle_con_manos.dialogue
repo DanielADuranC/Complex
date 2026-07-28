@@ -1,1 +1,34 @@
 ~ start
+Sarah: Repentinamente unas manos salieron del suelo... por todas partes.
+Sarah: El chico quiso salir de ahí
+Sarah: Vió unas escaleras en medio de unas casas más adelante
+Sarah: El niño pensó que era mejor...
+
+- Tratar de correr hacia las escaleras
+	Sarah: El chico corrió hacia las escaleras
+	Sarah: Corrió con todas sus fuerzas, más de lo que sus piernas soportaban
+	Sarah: En un momento sintió que estaba a punto de escapar de esos brazos que salían del suelo
+- Dejar que una mano de lo llevara
+	Sarah: Prefirió, por esta vez, rendirse
+	Sarah: Pensó que no pasaría nada
+	Sarah: Simplemente dejó que uno de los barzos lo agarrara y lo llevara a donde sea
+	Sarah: Pensó que no había mejor final que ese para su patética vida
+	Sarah: Fue entonces que comenzó a pensar... Que realmente no había hecho nada más en su vida que huír
+	Sarah: Y ahora solo sentía como mientras se lo llevaba un brazo por el suelo, todo su dolor se vería reflejado en una sola lagrima recorriendo su mejilla
+	set ManejoDialogoEscena.mostrar_mano = true
+=> END
+
+~ start2
+Hector: Adivino, ¿no escapó?
+Sarah: Exactamente
+
+Sarah: Estando justo al pie de las escaleras que tanto quería alcanzar, se dió cuenta de que subían hasta lo más alto del cielo...
+Sarah: Pero justo ahí miles de brazos salieron del suelo, formando un muro impenetrable, que se dirigieron hacia él...
+
+Sarah: Lo atraparon, no podía escapar, lo apretaron tanto que su respiración se hizo débil
+Sarah: ...Pensó que esta vez lo lograría, que esta vez sería diferente...
+Sarah: El niño no sabía que hacer, pero estando tan cerca, solo tenía una opción...
+
+- Resistirse
+do Escenas.cambiar_escena("res://scenes/oscuridad.tscn")
+=> END

@@ -5,3 +5,4 @@ var mostrarfoto = false
 var deshabilitar_colision_calle = false
 var primerfoto = false
 var segundafoto = false
+var mostrar_mano = false

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bpthrr2drn7jo"]
+
+[ext_resource type="Script" uid="uid://bgpgg6djliw13" path="res://scripts/manos_ensangrentadas.gd" id="1_s6ipt"]
+[ext_resource type="Texture2D" uid="uid://hvorgkhmoqh" path="res://assets/Assets propios/manos.png" id="2_jpryx"]
+
+[node name="Manos_Ensangrentadas" type="Node2D" unique_id=519629525]
+script = ExtResource("1_s6ipt")
+
+[node name="Control" type="Control" parent="." unique_id=743261552]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=365925960]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_jpryx")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1740999596]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)
