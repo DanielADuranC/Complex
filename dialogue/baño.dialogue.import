@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dm0efkd8xmccg"
+path="res://.godot/imported/baño.dialogue-03d8d62f47a338a9f4b927c97eca60f0.tres"
+
+[deps]
+
+source_file="res://dialogue/baño.dialogue"
+dest_files=["res://.godot/imported/baño.dialogue-03d8d62f47a338a9f4b927c97eca60f0.tres"]
+
+[params]
+
+defaults=true

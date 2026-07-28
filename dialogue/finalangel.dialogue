@@ -1,0 +1,17 @@
+~ start
+Hector: El chico ahora se encontraba en una habitación completamente blanca
+Hector: O mejor dicho, se encontraba en un espacio completamente blanco
+Hector: No sabía qué hacía ahí
+Hector: No sabía siquiera si alguna vez había estado ahí antes
+Hector: Lo único que podía hacer era avanzar
+Hector: Mientras más caminaba sentía que sus pies se cansaban más y más
+Hector: No entendía cuándo ese camino terminaría, sentía que iba cada vez más lento
+Hector: El chico estaba a punto de detenerse y rendirse, hasta que al final del camino vio una puerta blanca, y a su lado, un mensaje
+Hector: El chico pasó por la puerta. Lo olvidó, se rindió, realmente fue feliz...?
+Hector: Y fin
+Sarah: La verdad no siento que eso haya sido una historia de terror, parece más la historia de alguien que se redime por algo... ¿No lo crees?
+Hector: Yo pienso que para una buena historia de terror a veces hay que darle un final feliz, ¿No es mejor asi?
+Sarah: Supongo... La verdad siento que el chico debe de tener algo más escondido... ¿Y si empezamos de nuevo?
+Hector: ¡Seguro!
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+=> END

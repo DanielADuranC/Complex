@@ -1,0 +1,13 @@
+~ start
+Hector: El chico pudo pensar por claridad un segundo
+Hector: En el baño no encontró la medicina que esperaba
+Hector: Pues el baño era planamente una decoración
+Hector: En su lugar se encontró a otro chico, era... sorprendentemente similar a él, vestía de forma peculiar, con una ropa diferente, pero muy parecido a él...
+Hector: Él nunca se volteó
+Hector: Cuando el chico se vio a si mismo vió que ya no tenía las heridas de antes, ya no tenía dolor, no sentía enojo
+Hector: Sintió que logró superar algo al no ir a perseguir esas voces, había logrado algo que nunca antes había logrado
+Hector: Decidió continuar su camino...
+Hector: Decidió tomar la mano de ese niño extraño, por primera vez...
+- Tomar la mano del Ángel
+	do Escenas.cambiar_escena("res://scenes/finalangel.tscn")
+=> END

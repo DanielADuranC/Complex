@@ -1,0 +1,22 @@
+~ start
+Hector: Me gusta como la estás llevando, te ganaste una hora de sueño más la próxima vez
+Sarah: Creo que merezco más que eso si el que propuso comenzar a contar historias está tan alegrado con como la estoy creando
+Hector: Tienes razon, por eso, mejor continuo yo
+Sarah: ¡Pero...! Esta bien, a ver, continúa...
+Hector: Al entrar a la casa por la fuerza se dió cuenta de que no había nadie
+Hector: Pero aún seguía escuchando esas risas que tanto lo molestaban
+Hector: Parecía que el chico ahora estaba descontrolado, por alguna razón comenzó a llenarse de una ira que nada podría saciar
+Hector: Tanto que no se dió cuenta de que atravesar una ventana rota le había herido el cuerpo, tenía cortadas en sus manos y en sus piernas
+Hector: Pero aún así decidió seguir
+Hector: El chico comenzó a gritar desesperadamente...
+Chico: ¿¡DONDE ESTAN!?
+Hector: Sentía que no podía permitir que ellos fueran felices
+Hector: Su sufrimiento no lo dejaría
+Hector: De repente encontró que las voces venían del segundo piso
+Hector: Pero sus heridas eran muy profundas
+Hector: El chico comenzó a pensar en qué podría hacer...
+- Buscar algo para sus heridas
+	do Escenas.cambiar_escena("res://scenes/bano.tscn")
+- Seguir las voces
+	do Escenas.cambiar_escena("res://scenes/finalvoces.tscn")
+=> END

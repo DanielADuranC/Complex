@@ -1,0 +1,22 @@
+~ start
+Hector: Una vez subió, se callaron las voces
+Hector: Y en su lugar, se comenzaron a oír gritos, comenzaron a gritar desesperadamente de dolor, a un volumen demasiado alto para sus oídos
+Hector: El chico vió a un hombre, al final del pasillo
+Hector: No lo dudó, lo siguió... con las peores intenciones posibles
+Hector: Cuando llegó a él, justo al tocarlo, se vió a si mismo, al parecer había entrado en el cuerpo del hombre
+Hector: Lo había reemplazado
+Hector: Ahora el chico, en un cuerpo como el de ese hombre
+Hector: podría hacer lo que quisiera...
+Hector: Podía romper a quien quisiera
+Hector: Una oscuridad muy profunda recorrió su corazón
+Hector: Aceptó ser quien lo destruyó
+Hector: Aprendió a destruir igual que como su padre lo hizo con él, pero ahora él será quien destruya los corazones de esas familiar felices
+Hector: No lo soportaba...
+Hector: Fin
+Sarah: Entonces, ¿El chico siempre fue el malo?
+Hector: Diría que no del todo, simplemente aprendió a serlo... Digo, su padre nunca le hizo bien...
+Sarah: Aún no entiendo del todo... ¿Y si comenzamos de nuevo para entenderlo mejor?
+Hector: Si eso quieres, por mi esta bien
+Hector: Soy todo oídos
+do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+=> END

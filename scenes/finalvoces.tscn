@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://coh70gr3xli6o"]
+
+[ext_resource type="Texture2D" uid="uid://csxvh6u2icbu5" path="res://assets/Assets propios/espejo.png" id="1_6jwjv"]
+[ext_resource type="Script" uid="uid://cdj8e458hh4j2" path="res://scripts/finalvoces.gd" id="1_68p4g"]
+
+[node name="finalvoces" type="Node2D" unique_id=1858631832]
+script = ExtResource("1_68p4g")
+
+[node name="Control" type="Control" parent="." unique_id=1519959236]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=921742425]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_6jwjv")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1316496214]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)
