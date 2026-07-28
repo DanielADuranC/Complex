@@ -22,5 +22,5 @@ Sarah: Piénsalo, luego lo entenderás
 Sarah: O quizá no eres lo suficientemente inteligente, ¡Pero mi historia estuvo genial!
 Hector: No sé si lo llegue a entender, pero es cierto que me dio escalofríos, sólo un poco. ¿Otra historia?
 Sarah: ¡Seguro! Valió la pena que me despertaras. Seguro que entenderás mejor todo si empezamos de nuevo.
-do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
+do get_tree().quit()
 => END

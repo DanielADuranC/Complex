@@ -26,13 +26,6 @@ Sarah: Digamos que el chico decidió...
 - Seguir la calle
 	Sarah: Continuó por la calle, llendo algo más despacio, viendo cada casa, y esperando que algo cambiara a su alrededor
 	Sarah: Sentía una presencia aterradora mientras mas iba hacia el frente
-- Quedarse quieto 
-	Sarah: Se sentó en el lugar donde estaba... 
-	Sarah: Se sentía muy cansado, demasiado cansado
-	Sarah: Cerró los ojos para no tener que pensar más, no quería ver las calles a su alrededor
-	Sarah: Se acurrucó en el suelo simplemente para pensar
-	Sarah: Realmente no sabía desde hace cuánto tiempo llevaba caminando, no sabía desde hace cuando tiempo llevaba intentando avanzar sin poder mirar hacia atrás
-	Sarah: Por su mente comenzaron a recorrer imágenes fugaces de su vida...
 => END
 
 ~ start3
@@ -56,7 +49,7 @@ Sarah: No quería saber nada de esa voz...
 Sarah: No la reconocía, sentía que no debería estar ahí, no entendia lo que decía...
 Sarah: El niño trató de correr, pero no se podía mover
 Sarah: ...
-do Escenas.cambiar_escena("res://scenes/calle_con_manos.tscn")
+do get_tree().quit()
 
 ~ puerta1
 Sarah: Parecía que ninguna abría

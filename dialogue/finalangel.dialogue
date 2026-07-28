@@ -13,5 +13,5 @@ Sarah: La verdad no siento que eso haya sido una historia de terror, parece más
 Hector: Yo pienso que para una buena historia de terror a veces hay que darle un final feliz, ¿No es mejor asi?
 Sarah: Supongo... La verdad siento que el chico debe de tener algo más escondido... ¿Y si empezamos de nuevo?
 Hector: ¡Seguro!
-do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
+do get_tree().quit()
 => END

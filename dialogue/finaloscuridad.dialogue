@@ -8,7 +8,7 @@ Hector: Ya no se sentía como un niño feliz
 Hector: El chico recordó a su madre, lo amorosa que era con él, lo importante que fue
 Hector: El chico recordó a su padre, lo tranquilo, lo atento, lo feliz que...
 Hector: ...
-do get_tree().change_scene_to_file("res://scenes/manos_ensangrentadas.tscn")
+do Escenas.cambiar_escena("res://scenes/manos_ensangrentadas.tscn")
 => END
 
 ~ start2
@@ -23,5 +23,5 @@ Sarah: Me encanta ese detalle final
 Hector: Esta vez si que le da su toque ¿Verdad?
 Sarah: Creo que hiciste un buen trabajo, pero la verdad, creo que lograste que no me quedara dormida, ¿Y si lo intentamos otra vez?
 Hector: Me parece bien
-do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
+do get_tree().quit()
 => END
