@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://fuskiehm7buy"
+path="res://.godot/imported/finalangel.dialogue-940c1bfe0d0a88a9fc866b2f6d7e8c93.tres"
+
+[deps]
+
+source_file="res://dialogue/finalangel.dialogue"
+dest_files=["res://.godot/imported/finalangel.dialogue-940c1bfe0d0a88a9fc866b2f6d7e8c93.tres"]
+
+[params]
+
+defaults=true
