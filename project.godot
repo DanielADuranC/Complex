@@ -56,7 +56,7 @@ interact={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogue/inicio.dialogue", "res://dialogue/calle1.dialogue", "res://dialogue/segundopiso.dialogue", "res://dialogue/finalpuertarota.dialogue", "res://dialogue/calle_sin_sangre.dialogue", "res://dialogue/finalmadre.dialogue", "res://dialogue/cuchillo.dialogue", "res://dialogue/finalasimismo.dialogue", "res://dialogue/finalasumadre.dialogue", "res://dialogue/finalbosque.dialogue", "res://dialogue/calle_con_manos.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogue/inicio.dialogue", "res://dialogue/calle1.dialogue", "res://dialogue/segundopiso.dialogue", "res://dialogue/finalpuertarota.dialogue", "res://dialogue/calle_sin_sangre.dialogue", "res://dialogue/finalmadre.dialogue", "res://dialogue/cuchillo.dialogue", "res://dialogue/finalasimismo.dialogue", "res://dialogue/finalasumadre.dialogue", "res://dialogue/finalbosque.dialogue", "res://dialogue/calle_con_manos.dialogue", "res://dialogue/casa.dialogue", "res://dialogue/finalvoces.dialogue", "res://dialogue/baño.dialogue", "res://dialogue/finalangel.dialogue")
 
 [physics]
 

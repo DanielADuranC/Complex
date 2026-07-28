@@ -9,10 +9,13 @@ Mamá: ¿¡A DÓNDE FUISTE!?
 Mamá: ¿¡QUÉ TE HIZO TU PADRE...!?
 Hector: ¿Su padre?
 Sarah: Jejeje, es entonces, que el chico se da vuelta, y ve a su padre, tirado en el suelo, rodeado de sangre, con un cuchillo en sus manos
+do ManejoDialogoEscena.primerfoto = true
 Sarah: El chico no puede hablar
 Sarah: El chico no puede volver
 Sarah: El chico ya no tiene a dónde ir
 Sarah: El chico...
+do ManejoDialogoEscena.primerfoto = false
+do ManejoDialogoEscena.segundafoto = true
 Sarah: Murió
 Hector: ¿Y eso qué quiere decir?
 Sarah: Piénsalo, luego lo entenderás

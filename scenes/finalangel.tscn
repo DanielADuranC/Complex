@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cmby5ujvx3dxi"]
+
+[ext_resource type="Script" uid="uid://criju4di4o8f6" path="res://scripts/finalangel.gd" id="1_ofjla"]
+[ext_resource type="Texture2D" uid="uid://dg2a5kmf5iiku" path="res://assets/Assets propios/mensaje.png" id="2_qw8rl"]
+
+[node name="finalangel" type="Node2D" unique_id=343297993]
+script = ExtResource("1_ofjla")
+
+[node name="Control" type="Control" parent="." unique_id=2140396625]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=2117322758]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_qw8rl")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1827901364]
+position = Vector2(955, 538)
+zoom = Vector2(0.62, 0.62)
