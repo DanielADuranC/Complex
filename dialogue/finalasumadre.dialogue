@@ -25,5 +25,5 @@ Hector: Creo que eres muy fanática de la sangre. No es mi estilo realmente
 Sarah: De igual forma me gustó, creo que estaría bien volver a empezar, algo le falta a esta historia... Algo mas tétrico
 Hector: Intentémoslo de nuevo entonces, seguro que te gustará el siguiente final...
 Sarah: Yo haré que sea genial
-do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
+do get_tree().quit()
 => END

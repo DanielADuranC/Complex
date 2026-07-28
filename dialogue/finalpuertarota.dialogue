@@ -17,5 +17,5 @@ Hector: Si el monstruo estaba persiguiendo al chico... ¿Por que no trató de at
 Sarah: Piensa que en realidad el monstruo nunca salió de la casa...
 Hector: Hmm, un poco confuso... pero me parece un buen final para la historia, ¿Que te parece?
 Sarah: Me parece que deberíamos empezar de nuevo, ¡Me encantan estas historias!
-do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
+do get_tree().quit()
 => END
