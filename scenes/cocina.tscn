@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://crietjt1yc7du"]
 
-[ext_resource type="Script" uid="uid://cvvsf3t0wkx58" path="res://cocina.gd" id="1_1yh0t"]
+[ext_resource type="Script" uid="uid://cvvsf3t0wkx58" path="res://scripts/cocina.gd" id="1_1yh0t"]
 [ext_resource type="Texture2D" uid="uid://dmldpbplfwj" path="res://assets/extra/professional_kitchen/professional_kitchen/professional_kitchen_room_door_tiles.png" id="2_kii06"]
 [ext_resource type="Texture2D" uid="uid://b1nxqr53it2tj" path="res://assets/extra/professional_kitchen/professional_kitchen/professional_kitchen_withshadows.png" id="3_i1d44"]
 [ext_resource type="Texture2D" uid="uid://dvf5cshxvyk7j" path="res://assets/extra/professional_kitchen/professional_kitchen/professional_kitchen.png" id="4_jawfl"]

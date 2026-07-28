@@ -1,17 +1,27 @@
 extends Node
 
 
-#PRUEBA (generada con inteligencia artificial, simulando las escenas del juego)
+
 var mapa_escenas: Dictionary = {
-	"inicio": ["bosque", "castillo"],
-	"bosque": ["cueva", "final_bueno"],
-	"castillo": ["mazmorra"],
-	"cueva": ["final_neutro"],
-	"mazmorra": ["final_malo"],
-	"final_bueno": [],
-	"final_malo": [],
-	"final_neutro": [],
-	"escena_olvidada": ["final_malo"]
+	"inicio": ["calle"],
+	"calle": ["calle_no_sangre", "cocina", "segundo_piso"],
+	"cocina": ["finalsimismo", "finalasumadre", "bosquemonstruo"],
+	"bosquemonstruo": ["finalluz", "finalhueco"],
+	"segundo_piso": ["finalprota", "escenamadre"],
+	"escenamadre": ["finalmadre"],
+	"calle_no_sangre": ["casa", "calle_con_manos"],
+	"casa": ["finalvoces", "bano"],
+	"bano": ["finalangel"],
+	"calle_con_manos": ["oscuridad"],
+	"finalsimismo": [],
+	"finalasumadre": [],
+	"finalluz": [],
+	"finalhueco": [],
+	"finalprota": [],
+	"finalmadre": [],
+	"finalvoces": [],
+	"finalangel": [],
+	"oscuridad": []
 }
 
 func verificar_conectividad(nodo_inicio: String):

@@ -16,4 +16,4 @@ func _process(delta: float) -> void:
 		if Character.raycast.get_collider() == puertarota:
 			Escenas.cambiar_escena("res://scenes/finalprota.tscn")
 		else:
-			Escenas.cambiar_escena("")
+			Escenas.cambiar_escena("res://scenes/escenamadre.tscn")
