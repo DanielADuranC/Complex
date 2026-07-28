@@ -30,7 +30,7 @@ Sarah: Fin
 Hector: Hmm... De hecho me gustó, aunque la verdad creo que no entiendo, ¿Él era el padre del niño?
 Sarah: Creo que lo entenderás luego, quizá si lo intentamos de nuevo completemos aún más la historia
 Hector: Me gusta esa idea, ¡Empecemos de nuevo!
-do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
 => END
 
 ~ start3
@@ -60,5 +60,5 @@ Hector: ... Sí, supongo que está bien
 Sarah: ¿Lo intentamos de nuevo? A ver que más espera esta historia
 Hector: Dale, me encanta verte tan emocionada por mi idea de contar historias de terror... Aún después de haberte despertado
 Sarah: De eso hablaremos más tarde...
-do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
 => END

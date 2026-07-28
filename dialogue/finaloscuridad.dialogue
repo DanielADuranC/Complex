@@ -23,5 +23,5 @@ Sarah: Me encanta ese detalle final
 Hector: Esta vez si que le da su toque ¿Verdad?
 Sarah: Creo que hiciste un buen trabajo, pero la verdad, creo que lograste que no me quedara dormida, ¿Y si lo intentamos otra vez?
 Hector: Me parece bien
-do Escenas.cambiar_escena("res://scenes/menu_principal.tscn")
+do get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
 => END
